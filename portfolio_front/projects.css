@@ -1,0 +1,89 @@
+html {font-size: 22px;
+    margin: 0;
+    padding: 0;
+    
+    background-image: linear-gradient(to right, #2c3e50, #4ca1af);
+    height: 100%;
+    }
+    body {
+        min-height:100%;
+        max-width: 1000px;
+        margin: 1rem auto;
+        padding: 1rem;
+        border-left: 1px solid #333;
+        border-right: 1px solid #333;
+        background-color: rgb(179, 190, 190);
+        color: rgb(74, 74, 78);
+        box-shadow: 0 2rem 6rem rgba(0,0,0,0.3);
+        }
+        a {
+            color: rgb(141, 103, 128);
+        }
+        a:visited {
+            color: rgb(122, 95, 95);
+        }
+        a:hover, a:active {
+            color: #eee;
+        }
+    header {
+        color: rgb(247, 247, 240);
+        overflow: hidden;
+        background-image: url("img/Unbenannt.png");
+    }
+    nav {
+        background-color: rgb(221, 211, 220);
+        
+        
+    }
+    .navlist {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    
+    
+    }
+    .navlist-item {
+        display: inline-block;
+        padding: 8px;
+        transition: all 2s;
+    }
+    .navlist-item a {
+        text-decoration: none;
+        transition: all 1s;
+    }
+    .navlist-item :hover {
+        background-color:rgb(190, 182, 179);
+    }
+    .navlist-item :hover a{
+        color:rgb(0, 10, 10);
+    }
+    footer {
+        background-color: rgb(2, 1, 14);
+        color: rgb(144, 145, 150);
+    }
+    .mypic {
+        float:right;
+    
+    }
+    .wrapper {
+        overflow: hidden;
+    }
+    .back{
+        width:60%;
+
+Text-align:border-left;
+
+float:left;
+    }
+    
+    .front{
+        width:40%;
+
+Text-align:border-left;
+
+float:left;
+    }
+    
+h2, h3 {
+    color: black;
+}
