@@ -2,7 +2,12 @@ html {font-size: 22px;
     margin: 0;
     padding: 0;
     
-    background-image: linear-gradient(to right, #2c3e50, #4ca1af);
+    overflow: hidden;
+    background-image: url("img/Unbenannt.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
     height: 100%;
     }
     body {
@@ -12,7 +17,7 @@ html {font-size: 22px;
         padding: 1rem;
         border-left: 1px solid #333;
         border-right: 1px solid #333;
-        background-color: rgb(179, 190, 190);
+        background-color: rgb(159, 190, 190);
         color: rgb(74, 74, 78);
         box-shadow: 0 2rem 6rem rgba(0,0,0,0.3);
         }
@@ -28,7 +33,7 @@ html {font-size: 22px;
     header {
         color: rgb(247, 247, 240);
         overflow: hidden;
-        background-image: url("img/Unbenannt.png");
+        background-image: url("img/code2.png");
     }
     nav {
         background-color: rgb(221, 211, 220);
