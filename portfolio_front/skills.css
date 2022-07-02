@@ -1,8 +1,5 @@
-html {font-size: 22px;
-    margin: 0;
-    padding: 0;
-    
-    overflow: hidden;
+html {
+   
     background-image: url("img/Unbenannt.png");
     background-attachment: fixed;
     background-size: cover;
