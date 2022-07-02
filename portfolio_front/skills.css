@@ -46,11 +46,12 @@ html {
     }
     .navlist-item {
         display: inline-block;
-        padding: 8px;
+        padding: 10px 5px;
         transition: all 2s;
     }
     .navlist-item a {
         text-decoration: none;
+        padding: 10px 5px;
         transition: all 1s;
     }
     .navlist-item :hover {
@@ -73,7 +74,7 @@ html {
         box-shadow: 0 2rem 6rem rgba(0,0,0,0.3);
     }
     .back{
-        width:60%;
+        width:50%;
 
 Text-align:border-left;
 
@@ -81,7 +82,7 @@ float:left;
     }
     
     .front{
-        width:40%;
+        width:50%;
 
 Text-align:border-left;
 
