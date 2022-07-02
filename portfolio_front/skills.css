@@ -14,7 +14,7 @@ html {
         padding: 1rem;
         border-left: 1px solid #333;
         border-right: 1px solid #333;
-        background-color: rgb(159, 190, 190);
+       
         color: rgb(74, 74, 78);
         box-shadow: 0 2rem 6rem rgba(0,0,0,0.3);
         }
@@ -33,7 +33,7 @@ html {
         background-image: url("img/code2.png");
     }
     nav {
-        background-color: rgb(221, 211, 220);
+        background-color: #eee;
         
         
     }
@@ -59,16 +59,18 @@ html {
     .navlist-item :hover a{
         color:rgb(0, 10, 10);
     }
-    footer {
-        background-color: rgb(2, 1, 14);
-        color: rgb(144, 145, 150);
-    }
+   
     .mypic {
         float:right;
     
     }
     .wrapper {
         overflow: hidden;
+        border: #eee solid;
+        margin: 5px;
+        padding: 5px;
+        background-color:  rgb(163, 189, 187, 0.95);
+        box-shadow: 0 2rem 6rem rgba(0,0,0,0.3);
     }
     .back{
         width:60%;
@@ -87,9 +89,18 @@ float:left;
     }
     .wrapper2 {
         overflow: hidden;
+        border: #eee solid;
+        margin: 5px;
+        padding: 5px;
+        background-color:  rgb(163, 189, 187, 0.95);
+        box-shadow: 0 2rem 6rem rgba(0,0,0,0.3);
+      
+        
+        
     }
     .social{
         width:60%;
+        
 
 Text-align:border-left;
 
@@ -104,5 +115,24 @@ Text-align:border-left;
 float:left;
     }
 h2, h3 {
-    color: black;
+    color: rgb(22, 22, 22);
+}
+
+.footer {
+    border: #eee solid;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(2, 1, 14);
+    color: rgb(144, 145, 150);
+    box-shadow: 0 2rem 6rem rgba(0,0,0,0.3);
+}
+.container {
+    border: #eee solid;
+    margin: 5px;
+    padding: 5px;
+    background-color:  rgb(163, 189, 187, 0.95);
+    box-shadow: 0 2rem 6rem rgba(0,0,0,0.3);
+}
+.marketing {
+    line-height: 1.5;
 }
