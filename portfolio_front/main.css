@@ -12,7 +12,7 @@ body {
     max-width: 1000px;
     margin: 1rem auto;
     padding: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
    /* border-left: 1px solid #333;
     border-right: 1px solid #333;*/
     border: 1px solid #333;
@@ -33,20 +33,24 @@ body {
     }
 header {
     color: rgb(247, 247, 240);
-    overflow: hidden;
+    display: flow-root;
         background-image: url("img/code2.png");
-   
+   text-shadow: 2px 2px 4px rgb(67, 137, 165);
+   transform: translateX(-20%);
+   transform: rotateZ(2deg);
     }
 .container {
-    background-color: rgb(163, 189, 187, 0.95);
+    background-color: rgba(117, 182, 176, 0.95);
     border: #eee solid;
     margin: 5px;
     padding: 5px;
     box-shadow: 0 2rem 6rem rgba(0,0,0,0.3);
+    
 }
 
 nav {
     background-color: #eee;
+    box-shadow: 0 15px 5px -5px black;
     
     
 }
@@ -64,6 +68,8 @@ nav {
     transition: all 2s;
 }
 .navlist-item a {
+    color:black;
+    font-size: 1.5rem;
     text-decoration: none;
     padding: 10px 5px;
     transition: all 1s;
